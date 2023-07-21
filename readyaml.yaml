@@ -1,0 +1,6 @@
+Android:
+
+  platformName: Android
+  deviceName: '2e986046'
+  appPackage: 'com.wejoy.plant'
+  appActivity: 'com.unity3d.player.MyActivity'

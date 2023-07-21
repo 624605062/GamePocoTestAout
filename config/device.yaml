@@ -1,0 +1,13 @@
+Android1:
+  AndroidIP: '127.0.0.1:5037'
+  platformName: Android
+  deviceName: '2e986046'
+  appPackage: ' com.woyou.hammer'
+  appActivity: 'com.unity3d.player.MyActivity'
+
+Android2:
+  AndroidIP: '127.0.0.1:5037'
+  platformName: Android
+  deviceName: '2e986046'
+  appPackage: 'com.wejoy.plant'
+  appActivity: 'com.unity3d.player.MyActivity'

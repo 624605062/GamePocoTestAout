@@ -1,0 +1,42 @@
+
+
+import pytest
+from airtest.core.api import *
+
+from page import *
+import os
+from airtest.utils.logger import get_logger
+from readme.ReadYaml import GetYamlData
+import logging
+
+'''yaml_file=os.path.dirname(os.path.abspath(__file__))
+config_file=os.path.join(yaml_file,'config/device.yaml')
+if not os.path.isfile(config_file):
+    raise FileNotFoundError('config/device.yaml not found')'''
+"""data=GetYamlData('config/device.yaml').get_data()
+# 设置设备连接
+IPADD=data['Android']['AndroidIP']
+deviceName=data['Android']['deviceName']
+appPackages=data['Android']['appPackage']"""
+
+
+
+class APP:
+    def start_app(self):
+        connect_device(f"Android://{GetYamlData.get_android_ip('')}/{GetYamlData.get_device_name('')}")
+        start_app(GetYamlData.get_app_package(''))
+        logger = get_logger('airtest')
+        logger.setLevel(logging.INFO)
+
+        return MainPage
+
+
+# 进行其他操作
+    def stop_app(self):
+        time.sleep(15)
+        stop_app(GetYamlData.get_app_package(''))
+
+APP.start_app('')
+time.sleep(15)
+if __name__ == '__main__':
+    pytest.main()
