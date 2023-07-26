@@ -4,3 +4,25 @@ Android:
   deviceName: '2e986046'
   appPackage: 'com.wejoy.plant'
   appActivity: 'com.unity3d.player.MyActivity'
+uid	20282
+  game_id	8
+  pass	1
+  live_time	720
+  reward_list	[{"item_type":1001,"item_id":0,"num":8500,"level":0,"rare_level":0,"class_level":0,"probability":0},{"item_type":1003,"item_id":0,"num":1700,"level":0,"rare_level":0,"class_level":0,"probability":0},{"item_type":1032,"item_id":0,"num":62,"level":0,"rare_level":0,"class_level":0,"probability":0}]
+  kill_monster	1406
+  kill_boss	1
+  game_data	{"inc_attack":125,"inc_blood":100,"inc_speed":117,"inc_attack_freq":150}
+  gid	39bd4555-9f4e-4453-b872-440caee4b944
+  exit	0
+  act_monster_id	{"3001":[10001202]}
+  level	16
+  sid	24c855f706987abfe91b655dd7a943ab
+  device_id	weland_c8ae8824f21c49f4
+  market	kuaishou
+  version	1.1.255
+  lang	8
+  region	CN
+  abtest_group	["hammer_plant5_2"]
+  days_registered	94
+  tz	8
+  sign	j5LM3vT7K+KiLFoWXJ7+jWZL9Lc=
